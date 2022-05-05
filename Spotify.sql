@@ -29,7 +29,9 @@ CREATE TABLE spotify
 
 
 -- How many songs on the list are by Olivia Rodrigo? 
-SELECT COUNT(*) FROM spotify WHERE artist_name = "Olivia Rodrigo";
+SELECT COUNT(*) 
+FROM spotify 
+WHERE artist_name = "Olivia Rodrigo";
 
 -- Which songs have a tempo at or above 150 and a duration of 200000 or longer? = id 33, 8, 13, 23, 18
 SELECT * FROM spotify
